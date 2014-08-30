@@ -1,0 +1,23 @@
+{
+    "name": "anhu/thunder",
+    "type": "library",
+    "description": "Simple debug helper",
+    "keywords": ["debug", "education"],
+    "homepage": "http://github.com/pickaboo",
+    "license": "MIT",
+    "authors": [{
+        "name": "Andreas Hultman",
+        "email": "andreas.hultman@me.com",
+        "homepage": "http://about.me/andreas.hultman",
+        "role": "Developer"
+    }],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Anhu\\": "src/"
+        }
+    }
+}
+
