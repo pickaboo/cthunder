@@ -1,6 +1,6 @@
 # Thunder - a simple bug hunt helper
 ##
-Thunder is a simple, light weight, debug helper for the PHP framework [Anax](https://github.com/mosbth/Anax-MVC).
+ Thunder is a simple, light weight, debug helper for the PHP framework [Anax](https://github.com/mosbth/Anax-MVC).
 By setting a marker in a class or a function - a frame will be generated that can be viewed by adding the View to you page. 
 
 **The marker will provide information about**
@@ -17,13 +17,13 @@ See below for Usage and more info.
 
 By Andreas Hultman, [andreas.hultman@me.com](mailto:andreas.hultman@me.com)
 
-##License
+## License
 This software is free software and carries a MIT license.
 
-##Use of external libraries
+## Use of external libraries
 Thunder uses [Bootstrap](http://getbootstrap.com "Bootstrap") and [Fontawesome](http://fortawesome.github.io/Font-Awesome/ "Fontawesome"). These are included in the view template using the CDN support from [maxCDN](www.maxcdn.com).
 So make sure that you are online when using Thunder.  
-##Installation
+## Installation
 You can either clone it from github or use Composer to install with [Packagist](https://packagist.org/packages/anhu/thunder "Thunder @ Packagist"). 
 For installation with Composer - require the package in your composer.json using: 
 
@@ -50,7 +50,7 @@ A template view are included in the package (thunder.tpl.php). In Anax framework
     });
 
 
-##Usage
+## Usage
 When thunder is included you can put a mark anywhere in your code. When the mark runs - information is saved to the session and will be available  for output in a view. 
 There are several different ways you can set a mark. 
 
@@ -68,6 +68,6 @@ Its possible to pass values in the first parameter aswell and use Html.
 `$this->di->thunder->setMarker("<h1>Value of $x -> Value of $z</h1>", $testVar);` 
 
 knock your self out ...
-##History
+## History
 8/29/2014 Ver 0.1 - First attempt 
 
